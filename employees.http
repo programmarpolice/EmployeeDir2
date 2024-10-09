@@ -15,3 +15,12 @@ GET {{host}}/employees/123
 
 ### Get random employee
 GET {{host}}/employees/random
+
+### POST new employee
+
+POST {{host}}/employees
+Content-Type: application/json
+
+{
+    "name": "Alexis Smith"
+}
